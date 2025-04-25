@@ -1,0 +1,42 @@
+#root{
+  overflow-x: hidden;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.editor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.button{
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.prompt{
+  width: 100%;
+  height: 100%;
+}
+
+.response{
+  width: 100%;
+}
+
+.response pre{
+  width: 100%;
+}
